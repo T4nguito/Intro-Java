@@ -1,0 +1,77 @@
+D3mian  a  Todos 20:03
+me anda medio mal el internet si no se escucha
+concatenar un texto
+se me hace que es eso
+salto de linea es cuando le pones un \n
+Cori  a  Todos 20:12
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Ejerciciosguia2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author CDRCONS02
+ */
+public class ejemplo7 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner leer = new Scanner(System.in);
+int opcion;
+System.out.println("Ingrese una opción de motor");
+opcion = leer.nextInt();
+switch (opcion) {
+case 1:
+System.out.println("La bomba es una bomba de agua");
+break;
+case 2:
+System.out.println("La bomba es una bomba de gasolina");
+break;
+case 3:
+System.out.println("La bomba es una bomba de hormigon");
+break;
+case 4:
+System.out.println("La bomba es una bomba de pasta alimenticia");
+break;
+default:
+System.out.println("No existe esta bomba");
+}
+}
+    }
+Cori 20:33
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Ejerciciosguia2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author CDRCONS02
+ */
+public class Ejercicio8guia2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese su nota");
+        int respuesta = leer.nextInt();
+        while (respuesta < 0 || respuesta > 10) {
+            System.out.println("No es una nota valida");
+            respuesta = leer.nextInt();
+        }
+    }
+}
