@@ -45,11 +45,27 @@ public class Ejer6 {
                     System.out.println("División: " + (num1 / num2));
                     break;
                 case 5:
-                    System.out.println("Salir");
+                    while (opcion == ) {
+                        System.out.println("¿Está seguro que desea salir del programa?(S/N)");
+                        opcion=leer.nextInt();}
+                        if (opcion.equalsIgnoreCase("S")) {
+                            System.out.println("GRACIAS POR UTILIZAR ESTE PROGRAMA");
+                            
+                        break;}                         
+                        
+                case 6:
+                    System.out.println("Gracias por usar este programa");
                     break;
                 default:
-                    System.out.println("Opcion invalida");
+                    System.out.println("Opcion no valida");
+                    break;
+                    
+    
+    
+                
             }
-        }
+        } while (opcion.equalsIgnoreCase("N"));
+
     }
+
 }

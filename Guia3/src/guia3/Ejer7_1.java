@@ -25,7 +25,7 @@ public class Ejer7_1 {
         int cont2 = 0;
         do {
             System.out.println("Ingrese una secuencia de RS232");
-            cadena = leer.next();
+            cadena = leer.nextLine();
             // if (((cadena.startsWith("X")) && (cadena.endsWith("O"))) &&
             // (cadena.length()==5))
             if (((cadena.substring(0, 1).equals("X")) && (cadena.substring(4, 5).equals("O")))
