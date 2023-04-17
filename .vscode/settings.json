@@ -1,9 +1,11 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "Guia4/src/guia4",
         "Guia3/src",
         "Guia3",
-        "Guia4/src/guia4"
+        "Guia 5 - Arreglos en Java/src",
+        "Guia 4 - Subprogramas en Java/src/guia4"
     ],
     "java.dependency.packagePresentation": "hierarchical"
 }
