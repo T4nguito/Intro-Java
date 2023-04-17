@@ -1,8 +1,9 @@
 package Guia5;
 
-
-
 import java.util.Scanner;
+
+/*Realizar un algoritmo que calcule la suma de todos los elementos de un
+vector de tamaño N, con los valores ingresados por el usuario. */
 
 public class Ejer1 {
     public static void main(String[] args) {
@@ -19,4 +20,3 @@ public class Ejer1 {
         }
     }
 }
-
