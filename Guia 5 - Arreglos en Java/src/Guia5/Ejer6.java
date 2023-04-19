@@ -14,6 +14,8 @@ public class Ejer6 {
         for (int i = 0; i < matrizA.length; i++) {
             rasultado = matrizA[i][0];
             /* sdfsdf */
+
+            /* asdasdasdsada */
         }
     }
 }
