@@ -16,8 +16,7 @@ public class Ejer6 {
             /* sdfsdf */
 
             /* asdasdasdsada */
-
-            dasdas
+            Ultimo cambio = newUltimo(rasultado
         }
     }
 }
