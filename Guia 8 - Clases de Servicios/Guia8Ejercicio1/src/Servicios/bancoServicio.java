@@ -5,11 +5,11 @@ import Entidad.CuentaBancaria;
 import java.util.Scanner;
 
 
-public class BancarioServicio {
+public class BarrioServicio {
     
     Scanner leer = new Scanner(System.in).useDelimiter("\n");
   
-    public BancarioServicio() {
+    public BarrioServicio() {
     }
   
     public CuentaBancaria craearCuenta() {
@@ -28,13 +28,13 @@ public class BancarioServicio {
   
     public void retirar(CuentaBancaria cuenta, double cantidad) {
         if (cuenta.getSaldo() < cantidad) {
-            cantidad = cuenta.getSaldo();
+            c2antidad = cuenta.getSaldo();
         }
         cuenta.setSaldo(cuenta.getSaldo() - cantidad);
     }
     
   
-    public void extraccionRapido(CuentaBancaria cuenta) {
+    public void extraccionRapida(CuentaBancaria cuenta) {
         double cantidad = cuenta.getSaldo() * 0.2;
         cuenta.setSaldo(cuenta.getSaldo() - cantidad);
     }
@@ -49,4 +49,6 @@ public class BancarioServicio {
         System.out.println("DNI del cliente: " + cuenta.getDni());
         System.out.println("Saldo actual: " + cuenta.getSaldo());
     }
+
+
 }

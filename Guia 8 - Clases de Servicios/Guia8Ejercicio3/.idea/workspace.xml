@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc5589bf-58a6-468f-a293-9a58d958a6da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/Intro Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/ComandosGit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/ComandosGit1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/Intro_Java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/PruebaEncapsulamiento.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/ejercicio1dia192021222324_manos_obra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../EjemploLecturaYEntrada/EjemploLecturaYEntrada2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejemplos Funciones/Ejemplos Funciones2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 2 - Introduccion a Java/Ejemplos Java Egg/EjemploLecturaYEntrada/EjemploLecturaYEntrada3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 2 - Introduccion a Java/Ejemplos Java Egg/EjemploSentenciasSalto/EjemploSentenciasSalto1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 2 - Introduccion a Java/Ejemplos Java Egg/Ejemplos Funciones/Ejemplos Funciones4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 2 - Introduccion a Java/Ejemplos Java Egg/EjemplosEstructuras/EjemplosEstructuras1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 2 - Introduccion a Java/Ejemplos Java Egg/VectorYMatriz/VectorYMatriz3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 2 - Introduccion a Java/Guia2Ejercicios/Guia2Ejercicios1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/EjemploLecturaYEntrada/EjemploLecturaYEntrada4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/EjemploSentenciasSalto/EjemploSentenciasSalto2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/Ejemplos Funciones/Ejemplos Funciones3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/EjemplosEstructuras/EjemplosEstructuras2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/VectorYMatriz/VectorYMatriz1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 3 - Estructuras de Control en Java/Guia3Ejercicios/Guia3Ejercicios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 4 - Subprogramas en Java/Guia 4 - Subprogramas en Java1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 5 - Arreglos en Java/Guia 5 - Arreglos en Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio1/Guia7Ejercicio11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio2/Guia7Ejercicio21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio3/Guia7Ejercicio31.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio4/Guia7Ejercicio41.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra1/Guia7EjercicioExtra1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra2/Guia7EjercicioExtra2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra3/Guia7EjercicioExtra3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra4/Guia7EjercicioExtra4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra5/Guia7EjercicioExtra5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra6/Guia7EjercicioExtra6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtraExtra1/Guia7EjercicioExtraExtra11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtraExtra2/Guia7EjercicioExtraExtra21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtraExtra3/Guia7EjercicioExtraExtra31.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/AtributoDate/AtributoDate1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/AtributoVector/AtributoVector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/ClasesUtilidad/ClasesUtilidad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/EjemploIntegralPOO/EjemploIntegralPOO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/EjemploVentas/EjemploVentas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/Veterinaria/Veterinaria1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 7 - Programación Orientada a Objetos/POOTeoriaEjer1/POOTeoriaEjer11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejer Guia/Ejer Guia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/Guia8 Borrar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/Guia8Ejercicio1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/src/Entidades/CuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/src/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/src/Servicios/CuentaBancariaServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guia8Ejercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidad/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Servicios/PersonaServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/src/guia8ej2nespresso/Guia8Ej2Nespresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/src/guia8ej2nespresso/entidades/Cafetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej2Nespresso/src/guia8ej2nespresso/servicios/CafeteraServicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pruebas/Prueba/Prueba.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pruebas/PruebaEncapsulamiento/PruebaEncapsulamiento.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pruebas/PruebaHerencia/PruebaHerencia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 2 - Introduccion a Java/Ejemplos Java Egg/EjemploLecturaYEntrada/EjemploLecturaYEntrada.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 2 - Introduccion a Java/Ejemplos Java Egg/EjemploSentenciasSalto/EjemploSentenciasSalto4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 2 - Introduccion a Java/Ejemplos Java Egg/Ejemplos Funciones/Ejemplos Funciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 2 - Introduccion a Java/Ejemplos Java Egg/EjemplosEstructuras/EjemplosEstructuras3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 2 - Introduccion a Java/Ejemplos Java Egg/VectorYMatriz/VectorYMatriz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 2 - Introduccion a Java/Guia2Ejercicios/Guia2Ejercicios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/EjemploLecturaYEntrada/EjemploLecturaYEntrada1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/EjemploSentenciasSalto/EjemploSentenciasSalto3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/Ejemplos Funciones/Ejemplos Funciones1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/EjemplosEstructuras/EjemplosEstructuras4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 3 - Estructuras de Control en Java/Ejemplos Java Egg/VectorYMatriz/VectorYMatriz4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 3 - Estructuras de Control en Java/Guia3Ejercicios/Guia3Ejercicios1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 4 - Subprogramas en Java/Guia 4 - Subprogramas en Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 5 - Arreglos en Java/Guia 5 - Arreglos en Java1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio1/Guia7Ejercicio1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio2/Guia7Ejercicio2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio3/Guia7Ejercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7Ejercicio4/Guia7Ejercicio4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra1/Guia7EjercicioExtra11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra2/Guia7EjercicioExtra21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra3/Guia7EjercicioExtra31.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra4/Guia7EjercicioExtra41.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra5/Guia7EjercicioExtra51.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtra6/Guia7EjercicioExtra61.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtraExtra1/Guia7EjercicioExtraExtra1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtraExtra2/Guia7EjercicioExtraExtra2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Guia7EjercicioExtraExtra3/Guia7EjercicioExtraExtra3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/AtributoDate/AtributoDate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/AtributoVector/AtributoVector1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/ClasesUtilidad/ClasesUtilidad1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/EjemploIntegralPOO/EjemploIntegralPOO1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/EjemploVentas/EjemploVentas1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/Java-POO-master-EjemplosEgg/Veterinaria/Veterinaria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/Guia 7 - Programación Orientada a Objetos/POOTeoriaEjer1/POOTeoriaEjer1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../VectorYMatriz/VectorYMatriz2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Guia8Ejercicio1/src/Servicios/BancarioServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/src/Servicios/bancoServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Guia8Ejercicio1/src/guia8ejercicio1/Guia8Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Guia8Ejercicio1/src/guia8ejercicio1/Guia8Ejercicio1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2PG42mzhiyxu3E8gpdi6ZlUL2bP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc5589bf-58a6-468f-a293-9a58d958a6da" name="Changes" comment="" />
+      <created>1683069889212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683069889212</updated>
+    </task>
+    <servers />
+  </component>
+</project>

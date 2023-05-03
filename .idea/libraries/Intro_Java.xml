@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Intro Java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Juegodepong.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Config Netbeans Mio.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

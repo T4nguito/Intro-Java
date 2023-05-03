@@ -2,7 +2,7 @@
 package guia8ejercicio1;
 
 import Entidad.CuentaBancaria;
-import Servicios.BancarioServicio;
+import Servicios.bancoServicio;
 import java.util.Scanner;
 /**
  Realizar una clase llamada CuentaBancaria en el paquete Entidades con
@@ -25,11 +25,11 @@ f) Método consultarDatos: permitirá mostrar todos los datos de la
 cuenta.
 2
  */
-public class Guia8Ejercicio1 {    
+public class Guia8Ejercicio1 {
 
     public static void main(java.lang.String[] args) {
         CuentaBancaria cuenta = new CuentaBancaria();
-        BancarioServicio servicio = new BancarioServicio();
+        bancoServicio servicio = new bancoServicio();
         
         Scanner scanner = new Scanner(System.in);
 
@@ -42,7 +42,7 @@ public class Guia8Ejercicio1 {
         System.out.println("Ingrese el saldo actual:");
         cuenta.setSaldo(scanner.nextDouble());
 
-        servicio.crearCuenta(cuenta);
+        servicio.crearCuenta();
 
         System.out.println("¿Qué desea hacer?");
         System.out.println("1. Ingresar dinero");
