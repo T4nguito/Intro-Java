@@ -1,17 +1,18 @@
 package Entidades;
 
 public class CuentaBancaria {
-    int numeroCuenta;
-    double dniCliente;
-    double saldoActual;
+    public int numeroCuenta;
+    public long dniCliente;
+    public double saldoActual;
 
-    public CuentaBancaria(int numeroCuenta, double dniCliente, double saldoActual) {
+    public CuentaBancaria(int numeroCuenta, long dniCliente, double saldoActual) {
         this.numeroCuenta = numeroCuenta;
         this.dniCliente = dniCliente;
         this.saldoActual = saldoActual;
     }
 
     public int getNumeroCuenta() {
+
         return numeroCuenta;
     }
 
@@ -23,7 +24,7 @@ public class CuentaBancaria {
         return dniCliente;
     }
 
-    public void setDniCliente(double dniCliente) {
+    public void setDniCliente(long dniCliente) {
         this.dniCliente = dniCliente;
     }
 
@@ -33,5 +34,10 @@ public class CuentaBancaria {
 
     public void setSaldoActual(double saldoActual) {
         this.saldoActual = saldoActual;
+    }
+
+
+    public double nextDouble() {
+        return 0;
     }
 }

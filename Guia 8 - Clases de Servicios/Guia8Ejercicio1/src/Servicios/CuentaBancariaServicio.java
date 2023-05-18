@@ -1,22 +1,24 @@
 package Servicios;
 
 import Entidades.CuentaBancaria;
-
 import java.util.Scanner;
 
 
+
 public class CuentaBancariaServicio {
-    private Scanner leer;
+    private  Scanner leer;
 
     public CuentaBancariaServicio() {
+
         this.leer = new Scanner(System.in);
     }
+
 
     public CuentaBancaria crearCuenta() {
         System.out.println("Ingrese su numero de cuenta: ");
         int numcuenta = leer.nextInt();
         System.out.println("Ingrese su DNI: ");
-        double dniCliente = leer.nextDouble();
+        long dniCliente = leer.nextLong();
         System.out.println("Ingrese su saldo inicial: ");
         double saldoActual = leer.nextDouble();
 
@@ -25,6 +27,7 @@ public class CuentaBancariaServicio {
 
     public void ingresar (CuentaBancaria cuenta,double cantidad){
         double saldo = cuenta.getSaldoActual();
+        int  cantidad;
         saldo += cantidad;
         cuenta.setSaldoActual(saldo);
     }
