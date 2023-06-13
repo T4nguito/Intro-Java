@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/AtributoColeccion/AtributoColeccion.iml" filepath="$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/AtributoColeccion/AtributoColeccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/Colecciones/Colecciones.iml" filepath="$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/Colecciones/Colecciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/EjemploArrayList/EjemploArrayList.iml" filepath="$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/EjemploArrayList/EjemploArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/EjemploHashMap/EjemploHashMap.iml" filepath="$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/EjemploHashMap/EjemploHashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/EjemploHashSet/EjemploHashSet.iml" filepath="$PROJECT_DIR$/Java-Collecciones-Ejemplos-EGG/EjemploHashSet/EjemploHashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Guia 10 - Colecciones.iml" filepath="$PROJECT_DIR$/.idea/Guia 10 - Colecciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guia10Ejercicio1y2/Guia10Ejercicio1y2.iml" filepath="$PROJECT_DIR$/Guia10Ejercicio1y2/Guia10Ejercicio1y2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guia10Ejercicio3/Guia10Ejercicio3.iml" filepath="$PROJECT_DIR$/Guia10Ejercicio3/Guia10Ejercicio3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guia10Ejercicio4/Guia10Ejercicio4.iml" filepath="$PROJECT_DIR$/Guia10Ejercicio4/Guia10Ejercicio4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guia10_ej_04_cine(Grupo)/Guia10_ej_04_cine(Grupo).iml" filepath="$PROJECT_DIR$/Guia10_ej_04_cine(Grupo)/Guia10_ej_04_cine(Grupo).iml" />
+    </modules>
+  </component>
+</project>

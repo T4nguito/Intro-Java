@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3fc3f48-8395-423b-bf99-6be95516568e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/dictionaries/Maika.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/src/Entidad/Cafetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/src/Servicio/CafeteraServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio2/src/guia8ejercicio2/Guia8Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/src/Servicio/PersonaServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/src/guia8ejercicio3/Guia8Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/Guia8EjercicioExtra1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/src/Entidad/Raices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8EjercicioExtra1/src/Servicios/Extras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/guia8ej2nespresso/Guia8Ej2Nespresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/guia8ej2nespresso/entidades/Cafetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/guia8ej2nespresso/servicios/CafeteraServicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8Ejercicio2/Guia8Ejercicio2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Guia8Ejercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/build/classes/Entidad/Raices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/build/classes/Servicio/RaicesServicio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/build/classes/guia8ejercicioextra1/Guia8EjercicioExtra1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/src/Entidad/Raices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/src/Servicio/RaicesServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra1/src/guia8ejercicioextra1/Guia8EjercicioExtra1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/build/classes/Entidad/NIF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/build/classes/Servicio/NIFServicio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/build/classes/guia8ejercicioextra2/Guia8EjercicioExtra2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/src/Entidad/NIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/src/Servicio/NIFServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Guia8EjercicioExtra2/src/guia8ejercicioextra2/Guia8EjercicioExtra2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/src/guia8Ej3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/src/guia8ej3usuario/Entidades/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/src/guia8ej3usuario/Guia8Ej3Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guia8Ej3Usuario/src/guia8ej3usuario/PersonaServicios/personaServiciosG8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Entidad/CuentaBancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Entidades/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Entidades/CuentaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Servicios/CuentaBancariaServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Servicios/CuentaBancariaServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/Servicios/bancoServicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio1/src/guia8ejercicio1/Guia8Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/src/Entidad/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/src/Entidad/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Guia 8 - Clases de Servicios/Guia8Ejercicio3/src/Servicios/PersonaServicio.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2POa4yaBkRcHTJkAsCFJ6WumiRP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Maika/OneDrive/Documentos/Yo Programo 4.0/Intro Java/Guia 8 - Clases de Servicios/Guia8Ejercicio1"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3fc3f48-8395-423b-bf99-6be95516568e" name="Changes" comment="" />
+      <created>1683330394751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683330394751</updated>
+    </task>
+    <servers />
+  </component>
+</project>
