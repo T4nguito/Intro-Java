@@ -1,0 +1,3 @@
+* Desde los servicios se ingresan los datos
+ * De servicios pasa a DAO
+ * DAO se encarga de subir o actualizar los datos en MySQL

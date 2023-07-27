@@ -1,0 +1,562 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+// Clase base para los alojamientos turísticos
+class AlojamientoTuristico {
+    private String nombre;
+    private String direccion;
+    private String localidad;
+    private String gerenteEncargado;
+
+    public AlojamientoTuristico(String nombre, String direccion, String localidad, String gerenteEncargado) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.localidad = localidad;
+        this.gerenteEncargado = gerenteEncargado;
+    }
+
+    // Getters y setters
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getLocalidad() {
+        return localidad;
+    }
+
+    public void setLocalidad(String localidad) {
+        this.localidad = localidad;
+    }
+
+    public String getGerenteEncargado() {
+        return gerenteEncargado;
+    }
+
+    public void setGerenteEncargado(String gerenteEncargado) {
+        this.gerenteEncargado = gerenteEncargado;
+    }
+
+    // Método toString() para representar el alojamiento como una cadena de texto
+    @Override
+    public String toString() {
+        return "Alojamiento: " + nombre + "\n" +
+                "Dirección: " + direccion + "\n" +
+                "Localidad: " + localidad + "\n" +
+                "Gerente Encargado: " + gerenteEncargado + "\n";
+    }
+}
+
+// Clase para representar un hotel
+class Hotel extends AlojamientoTuristico {
+    private int cantidadHabitaciones;
+    private int numeroCamas;
+    private int cantidadPisos;
+    private double precioHabitaciones;
+
+    public Hotel(String nombre, String direccion, String localidad, String gerenteEncargado,
+                 int cantidadHabitaciones, int numeroCamas, int cantidadPisos) {
+        super(nombre, direccion, localidad, gerenteEncargado);
+        this.cantidadHabitaciones = cantidadHabitaciones;
+        this.numeroCamas = numeroCamas;
+        this.cantidadPisos = cantidadPisos;
+        this.precioHabitaciones = calcularPrecioHabitaciones();
+    }
+
+    // Getters y setters
+
+    public int getCantidadHabitaciones() {
+        return cantidadHabitaciones;
+    }
+
+    public void setCantidadHabitaciones(int cantidadHabitaciones) {
+        this.cantidadHabitaciones = cantidadHabitaciones;
+    }
+
+    public int getNumeroCamas() {
+        return numeroCamas;
+    }
+
+    public void setNumeroCamas(int numeroCamas) {
+        this.numeroCamas = numeroCamas;
+    }
+
+    public int getCantidadPisos() {
+        return cantidadPisos;
+    }
+
+    public void setCantidadPisos(int cantidadPisos) {
+        this.cantidadPisos = cantidadPisos;
+    }
+
+    public double getPrecioHabitaciones() {
+        return precioHabitaciones;
+    }
+
+    // Método para calcular el precio de las habitaciones según la fórmula dada
+    private double calcularPrecioHabitaciones() {
+        double valorAgregadoRestaurante = 0;
+        double valorAgregadoGimnasio = 0;
+        double valorAgregadoLimosinas = 0;
+
+        // Cálculo del valor agregado por el restaurante
+        // Implementar la lógica según las condiciones dadas
+
+        // Cálculo del valor agregado por el gimnasio
+        // Implementar la lógica según las condiciones dadas
+
+        // Cálculo del valor agregado por las limosinas
+        // Implementar la lógica según las condiciones dadas
+
+        return 50 + (1 * getCantidadHabitaciones()) + valorAgregadoRestaurante +
+                valorAgregadoGimnasio + valorAgregadoLimosinas;
+    }
+
+    // Método toString() para representar el hotel como una cadena de texto
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Tipo: Hotel\n" +
+                "Cantidad de Habitaciones: " + cantidadHabitaciones + "\n" +
+                "Número de Camas: " + numeroCamas + "\n" +
+                "Cantidad de Pisos: " + cantidadPisos + "\n" +
+                "Precio de Habitaciones: " + precioHabitaciones + "\n";
+    }
+}
+
+// Clase para representar un alojamiento extrahotelero
+class AlojamientoExtrahotelero extends AlojamientoTuristico {
+    private boolean privado;
+    private double metrosCuadrados;
+
+    public AlojamientoExtrahotelero(String nombre, String direccion, String localidad, String gerenteEncargado,
+                                    boolean privado, double metrosCuadrados) {
+        super(nombre, direccion, localidad, gerenteEncargado);
+        this.privado = privado;
+        this.metrosCuadrados = metrosCuadrados;
+    }
+
+    // Getters y setters
+
+    public boolean isPrivado() {
+        return privado;
+    }
+
+    public void setPrivado(boolean privado) {
+        this.privado = privado;
+    }
+
+    public double getMetrosCuadrados() {
+        return metrosCuadrados;
+    }
+
+    public void setMetrosCuadrados(double metrosCuadrados) {
+        this.metrosCuadrados = metrosCuadrados;
+    }
+
+    // Método toString() para representar el alojamiento extrahotelero como una cadena de texto
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Tipo: Alojamiento Extrahotelero\n" +
+                "Privado: " + privado + "\n" +
+                "Metros Cuadrados: " + metrosCuadrados + "\n";
+    }
+}
+
+// Clase para representar un hotel de 4 estrellas
+class Hotel4Estrellas extends Hotel {
+    private boolean gimnasio;
+    private String nombreRestaurante;
+    private int capacidadRestaurante;
+
+    public Hotel4Estrellas(String nombre, String direccion, String localidad, String gerenteEncargado,
+                           int cantidadHabitaciones, int numeroCamas, int cantidadPisos,
+                           boolean gimnasio, String nombreRestaurante, int capacidadRestaurante) {
+        super(nombre, direccion, localidad, gerenteEncargado, cantidadHabitaciones, numeroCamas, cantidadPisos);
+        this.gimnasio = gimnasio;
+        this.nombreRestaurante = nombreRestaurante;
+        this.capacidadRestaurante = capacidadRestaurante;
+    }
+
+    // Getters y setters
+
+    public boolean isGimnasio() {
+        return gimnasio;
+    }
+
+    public void setGimnasio(boolean gimnasio) {
+        this.gimnasio = gimnasio;
+    }
+
+    public String getNombreRestaurante() {
+        return nombreRestaurante;
+    }
+
+    public void setNombreRestaurante(String nombreRestaurante) {
+        this.nombreRestaurante = nombreRestaurante;
+    }
+
+    public int getCapacidadRestaurante() {
+        return capacidadRestaurante;
+    }
+
+    public void setCapacidadRestaurante(int capacidadRestaurante) {
+        this.capacidadRestaurante = capacidadRestaurante;
+    }
+
+    // Método toString() para representar el hotel de 4 estrellas como una cadena de texto
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Categoría: Hotel ****\n" +
+                "Gimnasio: " + gimnasio + "\n" +
+                "Nombre del Restaurante: " + nombreRestaurante + "\n" +
+                "Capacidad del Restaurante: " + capacidadRestaurante + "\n" +
+                "Precio de Habitaciones: " + getPrecioHabitaciones() + "\n";
+    }
+}
+
+// Clase para representar un hotel de 5 estrellas
+class Hotel5Estrellas extends Hotel {
+    private boolean gimnasio;
+    private String nombreRestaurante;
+    private int capacidadRestaurante;
+    private int cantidadSalonesConferencia;
+    private int cantidadSuites;
+    private int cantidadLimosinas;
+
+    public Hotel5Estrellas(String nombre, String direccion, String localidad, String gerenteEncargado,
+                           int cantidadHabitaciones, int numeroCamas, int cantidadPisos,
+                           boolean gimnasio, String nombreRestaurante, int capacidadRestaurante,
+                           int cantidadSalonesConferencia, int cantidadSuites, int cantidadLimosinas) {
+        super(nombre, direccion, localidad, gerenteEncargado, cantidadHabitaciones, numeroCamas, cantidadPisos);
+        this.gimnasio = gimnasio;
+        this.nombreRestaurante = nombreRestaurante;
+        this.capacidadRestaurante = capacidadRestaurante;
+        this.cantidadSalonesConferencia = cantidadSalonesConferencia;
+        this.cantidadSuites = cantidadSuites;
+        this.cantidadLimosinas = cantidadLimosinas;
+    }
+
+    // Getters y setters
+
+    public boolean isGimnasio() {
+        return gimnasio;
+    }
+
+    public void setGimnasio(boolean gimnasio) {
+        this.gimnasio = gimnasio;
+    }
+
+    public String getNombreRestaurante() {
+        return nombreRestaurante;
+    }
+
+    public void setNombreRestaurante(String nombreRestaurante) {
+        this.nombreRestaurante = nombreRestaurante;
+    }
+
+    public int getCapacidadRestaurante() {
+        return capacidadRestaurante;
+    }
+
+    public void setCapacidadRestaurante(int capacidadRestaurante) {
+        this.capacidadRestaurante = capacidadRestaurante;
+    }
+
+    public int getCantidadSalonesConferencia() {
+        return cantidadSalonesConferencia;
+    }
+
+    public void setCantidadSalonesConferencia(int cantidadSalonesConferencia) {
+        this.cantidadSalonesConferencia = cantidadSalonesConferencia;
+    }
+
+    public int getCantidadSuites() {
+        return cantidadSuites;
+    }
+
+    public void setCantidadSuites(int cantidadSuites) {
+        this.cantidadSuites = cantidadSuites;
+    }
+
+    public int getCantidadLimosinas() {
+        return cantidadLimosinas;
+    }
+
+    public void setCantidadLimosinas(int cantidadLimosinas) {
+        this.cantidadLimosinas = cantidadLimosinas;
+    }
+
+    // Método toString() para representar el hotel de 5 estrellas como una cadena de texto
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Categoría: Hotel *****\n" +
+                "Gimnasio: " + gimnasio + "\n" +
+                "Nombre del Restaurante: " + nombreRestaurante + "\n" +
+                "Capacidad del Restaurante: " + capacidadRestaurante + "\n" +
+                "Cantidad de Salones de Conferencia: " + cantidadSalonesConferencia + "\n" +
+                "Cantidad de Suites: " + cantidadSuites + "\n" +
+                "Cantidad de Limosinas: " + cantidadLimosinas + "\n" +
+                "Precio de Habitaciones: " + getPrecioHabitaciones() + "\n";
+    }
+}
+
+// Clase para representar un camping
+class Camping extends AlojamientoExtrahotelero {
+    private int capacidadMaximaCarpas;
+    private int cantidadBanos;
+    private boolean restaurante;
+
+    public Camping(String nombre, String direccion, String localidad, String gerenteEncargado,
+                   boolean privado, double metrosCuadrados, int capacidadMaximaCarpas,
+                   int cantidadBanos, boolean restaurante) {
+        super(nombre, direccion, localidad, gerenteEncargado, privado, metrosCuadrados);
+        this.capacidadMaximaCarpas = capacidadMaximaCarpas;
+        this.cantidadBanos = cantidadBanos;
+        this.restaurante = restaurante;
+    }
+
+    // Getters y setters
+
+    public int getCapacidadMaximaCarpas() {
+        return capacidadMaximaCarpas;
+    }
+
+    public void setCapacidadMaximaCarpas(int capacidadMaximaCarpas) {
+        this.capacidadMaximaCarpas = capacidadMaximaCarpas;
+    }
+
+    public int getCantidadBanos() {
+        return cantidadBanos;
+    }
+
+    public void setCantidadBanos(int cantidadBanos) {
+        this.cantidadBanos = cantidadBanos;
+    }
+
+    public boolean hasRestaurante() {
+        return restaurante;
+    }
+
+    public void setRestaurante(boolean restaurante) {
+        this.restaurante = restaurante;
+    }
+
+    // Método toString() para representar el camping como una cadena de texto
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Tipo: Camping\n" +
+                "Capacidad Máxima de Carpas: " + capacidadMaximaCarpas + "\n" +
+                "Cantidad de Baños: " + cantidadBanos + "\n" +
+                "Restaurante: " + restaurante + "\n";
+    }
+}
+
+// Clase para representar una residencia
+class Residencia extends AlojamientoExtrahotelero {
+    private int cantidadHabitaciones;
+    private boolean descuento;
+    private boolean campoDeportivo;
+
+    public Residencia(String nombre, String direccion, String localidad, String gerenteEncargado,
+                      boolean privado, double metrosCuadrados, int cantidadHabitaciones,
+                      boolean descuento, boolean campoDeportivo) {
+        super(nombre, direccion, localidad, gerenteEncargado, privado, metrosCuadrados);
+        this.cantidadHabitaciones = cantidadHabitaciones;
+        this.descuento = descuento;
+        this.campoDeportivo = campoDeportivo;
+    }
+
+    // Getters y setters
+
+    public int getCantidadHabitaciones() {
+        return cantidadHabitaciones;
+    }
+
+    public void setCantidadHabitaciones(int cantidadHabitaciones) {
+        this.cantidadHabitaciones = cantidadHabitaciones;
+    }
+
+    public boolean hasDescuento() {
+        return descuento;
+    }
+
+    public void setDescuento(boolean descuento) {
+        this.descuento = descuento;
+    }
+
+    public boolean hasCampoDeportivo() {
+        return campoDeportivo;
+    }
+
+    public void setCampoDeportivo(boolean campoDeportivo) {
+        this.campoDeportivo = campoDeportivo;
+    }
+
+    // Método toString() para representar la residencia como una cadena de texto
+    @Override
+    public String toString() {
+        return super.toString() +
+                "Tipo: Residencia\n" +
+                "Cantidad de Habitaciones: " + cantidadHabitaciones + "\n" +
+                "Descuento: " + descuento + "\n" +
+                "Campo Deportivo: " + campoDeportivo + "\n";
+    }
+}
+
+// Clase para representar la compañía de promociones turísticas
+class CompaniaPromociones {
+    private List<AlojamientoTuristico> alojamientos;
+
+    public CompaniaPromociones() {
+        alojamientos = new ArrayList<>();
+    }
+
+    // Método para agregar un alojamiento turístico a la compañía
+    public void agregarAlojamiento(AlojamientoTuristico alojamiento) {
+        alojamientos.add(alojamiento);
+    }
+
+    // Método para obtener todos los alojamientos turísticos
+    public List<AlojamientoTuristico> obtenerTodosAlojamientos() {
+        return alojamientos;
+    }
+
+    // Método para obtener todos los hoteles ordenados de más caro a más barato
+    public List<Hotel> obtenerHotelesOrdenados() {
+        List<Hotel> hoteles = new ArrayList<>();
+
+        for (AlojamientoTuristico alojamiento : alojamientos) {
+            if (alojamiento instanceof Hotel) {
+                hoteles.add((Hotel) alojamiento);
+            }
+        }
+
+        // Ordenar los hoteles por precio de habitaciones de forma descendente
+        hoteles.sort(Comparator.comparingDouble(Hotel::getPrecioHabitaciones).reversed());
+
+        return hoteles;
+    }
+
+    // Método para obtener todos los campings con restaurante
+    public List<Camping> obtenerCampingsConRestaurante() {
+        List<Camping> campings = new ArrayList<>();
+
+        for (AlojamientoTuristico alojamiento : alojamientos) {
+            if (alojamiento instanceof Camping) {
+                Camping camping = (Camping) alojamiento;
+                if (camping.hasRestaurante()) {
+                    campings.add(camping);
+                }
+            }
+        }
+
+        return campings;
+    }
+
+    // Método para obtener todas las residencias que tienen descuento
+    public List<Residencia> obtenerResidenciasConDescuento() {
+        List<Residencia> residencias = new ArrayList<>();
+
+        for (AlojamientoTuristico alojamiento : alojamientos) {
+            if (alojamiento instanceof Residencia) {
+                Residencia residencia = (Residencia) alojamiento;
+                if (residencia.hasDescuento()) {
+                    residencias.add(residencia);
+                }
+            }
+        }
+
+        return residencias;
+    }
+}
+
+// Clase principal con el método main
+public class Main {
+    public static void main(String[] args) {
+        // Crear la compañía de promociones turísticas
+        CompaniaPromociones compania = new CompaniaPromociones();
+
+        // Crear y agregar hoteles a la compañía
+        Hotel4Estrellas hotel1 = new Hotel4Estrellas("Hotel A", "Dirección A", "Localidad A",
+                "Gerente A", 100, 200, 10, true, "Restaurante A", 40);
+        Hotel5Estrellas hotel2 = new Hotel5Estrellas("Hotel B", "Dirección B", "Localidad B",
+                "Gerente B", 150, 300, 15, true, "Restaurante B", 50, 5, 10, 3);
+        compania.agregarAlojamiento(hotel1);
+        compania.agregarAlojamiento(hotel2);
+
+        // Crear y agregar campings a la compañía
+        Camping camping1 = new Camping("Camping A", "Dirección C", "Localidad C",
+                "Gerente C", true, 5000, 50, 20, true);
+        Camping camping2 = new Camping("Camping B", "Dirección D", "Localidad D",
+                "Gerente D", false, 3000, 30, 10, false);
+        compania.agregarAlojamiento(camping1);
+        compania.agregarAlojamiento(camping2);
+
+        // Crear y agregar residencias a la compañía
+        Residencia residencia1 = new Residencia("Residencia A", "Dirección E", "Localidad E",
+                "Gerente E", false, 2000, 50, true, true);
+        Residencia residencia2 = new Residencia("Residencia B", "Dirección F", "Localidad F",
+                "Gerente F", true, 2500, 40, false, false);
+        compania.agregarAlojamiento(residencia1);
+        compania.agregarAlojamiento(residencia2);
+
+        // Consultar todos los alojamientos
+        System.out.println("Todos los alojamientos:");
+        List<AlojamientoTuristico> todosAlojamientos = compania.obtenerTodosAlojamientos();
+        for (AlojamientoTuristico alojamiento : todosAlojamientos) {
+            System.out.println(alojamiento);
+        }
+
+        System.out.println();
+
+        // Consultar todos los hoteles de más caro a más barato
+        System.out.println("Todos los hoteles de más caro a más barato:");
+        List<Hotel> hotelesOrdenados = compania.obtenerHotelesOrdenados();
+        for (Hotel hotel : hotelesOrdenados) {
+            System.out.println(hotel);
+        }
+
+        System.out.println();
+
+        // Consultar todos los campings con restaurante
+        System.out.println("Todos los campings con restaurante:");
+        List<Camping> campingsConRestaurante = compania.obtenerCampingsConRestaurante();
+        for (Camping camping : campingsConRestaurante) {
+            System.out.println(camping);
+        }
+
+        System.out.println();
+
+        // Consultar todas las residencias que tienen descuento
+        System.out.println("Todas las residencias que tienen descuento:");
+        List<Residencia> residenciasConDescuento = compania.obtenerResidenciasConDescuento();
+        for (Residencia residencia : residenciasConDescuento) {
+            System.out.println(residencia);
+        }
+    }
+}
+
+
+
+
+
+

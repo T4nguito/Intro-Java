@@ -58,7 +58,7 @@ public class Guia11_Ejercicio1 {
         persona1.setPerro(perro2);
         persona2.setPerro(perro1);
 
-        System.out.println(persona1.toString());
+        89System.out.println(persona1.toString());
         System.out.println(persona2.toString());
 
     }
